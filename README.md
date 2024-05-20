@@ -1,6 +1,6 @@
 # Irrigo
 
-Irrigo is a web application designed to provide farmers with essential weather forecast information and irrigation pattern suggestions, aiding in optimized crop management. Developed as the final project submission for GHW-Data, Irrigo aims to enhance agricultural practices through data-driven insights.
+Irrigo is a web application designed to provide farmers with essential weather forecast information and irrigation pattern suggestions, aiding in optimized crop management.
 
 ## Features
 
@@ -11,31 +11,9 @@ Irrigo is a web application designed to provide farmers with essential weather f
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript (with Axios for HTTP requests, and Chart.js for visualization)
-- **Backend**: Node.js (server.js not included in this repository)
+- **Backend**: Node.js
 - **External APIs**: OpenWeather API (weather data), BigDataCloud API (reverse geocoding)
 - **Development Tools**: Visual Studio Code, Git
-
-## Usage
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Loskoss/Irrigo.git
-   ```
-2. **Navigate to the project directory**:
-   ```bash
-   cd Irrigo
-   ```
-3. **Start the backend server**:
-   ```bash
-   node backend/server.js
-   ```
-   Ensure Node.js is installed and dependencies are installed via npm or yarn.
-4. **Open `index.html` in a web browser**.
-5. **Enter the latitude and longitude** of the farm location.
-6. **Select the crop type** from the dropdown menu (not currently utilized).
-7. **Click on the "Get Location"** button to use the current location (optional).
-8. **Click on the "Submit"** button to fetch weather data and irrigation pattern suggestions.
-9. **View the weather forecast** and irrigation pattern displayed.
 
 ## Future Work
 
@@ -44,7 +22,3 @@ Irrigo is a web application designed to provide farmers with essential weather f
 3. **Email Alerts**: Provide email notifications for weather forecast changes and irrigation recommendations.
 4. **Historical Data Analysis**: Analyze historical weather data to offer long-term farming insights and trends.
 5. **Crop Suggestion** : suggest crop based on historical data.
-
-## Contributing
-
-Contributions, suggestions, feature requests, and bug reports are encouraged. Please open an issue or submit a pull request.
